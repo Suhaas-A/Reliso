@@ -32,7 +32,7 @@ function Register() {
                 <Typography class="w3-center" variant="h3" style={{color: 'rgb(0, 100, 0)', fontSize: 58}}><b>Reliso</b></Typography>
             </div>
 
-            <div class="w3-card-4 w3-white w3-border w3-round-large" style={{'width': 434, 'height': 590, position: "fixed", top: 110, left: 540}}>
+            <div class="w3-card-4 w3-white w3-border w3-round-large" style={{'width': 434, 'height': 590, position: "absolute", top: 110, left: 540}}>
                 <Typography variant="h6" fontSize={25} style={{marginLeft: 98, marginTop: 6}}><b>Create a new account</b></Typography>
                 <Typography variant="h6" fontSize={15} style={{marginLeft: 155, marginTop: -5, marginBottom: 12, color: 'rgb(90, 90, 90)'}}>It's quick and easy.</Typography>
                 <Divider></Divider>
