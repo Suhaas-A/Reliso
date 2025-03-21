@@ -18,7 +18,7 @@ function Register() {
             'address': address, 
             'accountType': accountType
         };
-        const response = await axios.post('http://127.0.0.1:5000/api/register', data);
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/register', data);
         const message = await response.data;
 
         console.log(message);
