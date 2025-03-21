@@ -21,5 +21,32 @@
       overflow: auto;
       z-index: 100;
     }
+
+    body {
+        position: fixed;
+        top: 20%;
+        left: 60%;
+        width: 30%;
+        height: 45%;
+    }
+
+    @media (max-width: 1024px) {
+        body {
+            top: 30%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: auto;
+        }
+    }
   </style>
 </html>
