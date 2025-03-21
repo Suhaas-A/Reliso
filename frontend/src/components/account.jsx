@@ -21,7 +21,7 @@ function Account() {
     const [successfulOrders, setSuccessfulOrders]= useState('');
 
     async function logOut() {
-        const response = await axios.get('http://127.0.0.1:5000/api/log-out', {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/log-out', {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -33,7 +33,7 @@ function Account() {
     }
 
     async function getAccountDetails() {
-        const response = await axios.get('http://127.0.0.1:5000/api/view_account',  {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/view_account',  {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -50,7 +50,7 @@ function Account() {
     }
 
     async function getAllOrders() {
-        const response = await axios.get('http://127.0.0.1:5000/api/view-past-orders', {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/view-past-orders', {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -74,7 +74,7 @@ function Account() {
             'phoneNumber': phoneNumber,
             'address': address
         };
-        const response = await axios.post('http://127.0.0.1:5000/api/edit_account', data, {
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/edit_account', data, {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
