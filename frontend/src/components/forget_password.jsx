@@ -9,7 +9,7 @@ function ForgetPassword() {
     const [inputOtp, setInputOtp] = useState('');
 
     async function verifyUser() {
-        const response = await axios.post('http://127.0.0.1:5000/api/forget-password', {'username': username});
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/forget-password', {'username': username});
         const message = response.data;
 
         setOtp(message['otp']);
@@ -24,7 +24,7 @@ function ForgetPassword() {
                 'username': username,
                 'password': password
             }
-            const response = await axios.post('http://127.0.0.1:5000/api/reset-password', data);
+            const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/reset-password', data);
             
             window.location.href = '/login';
         } else {
