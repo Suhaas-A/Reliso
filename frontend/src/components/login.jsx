@@ -11,7 +11,7 @@ function Login() {
             'username': username,
             'password': password
         };
-        const response = await axios.post('http://127.0.0.1:5000/api/login', data);
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/login', data);
         const message = await response.data;
 
         console.log(message);
