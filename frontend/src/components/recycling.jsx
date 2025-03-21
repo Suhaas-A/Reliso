@@ -89,7 +89,7 @@ function Recycling() {
     const [pickUpTime, setPickUpTime] = useState(null);
 
     async function getAccountDetails() {
-        const response = await axios.get('http://127.0.0.1:5000/api/view_account',  {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/view_account',  {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -102,7 +102,7 @@ function Recycling() {
     }
 
     async function getCurrentRecycling() {
-        const response = await axios.get('http://127.0.0.1:5000/api/view-current-order',  {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/view-current-order',  {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -114,7 +114,7 @@ function Recycling() {
     }
 
     async function trackCurrentRecycling() {
-        const response = await axios.get('http://127.0.0.1:5000/api/track-current-recycling',  {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/track-current-recycling',  {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -132,7 +132,7 @@ function Recycling() {
     }, [])
 
     async function logOut() {
-        const response = await axios.get('http://127.0.0.1:5000/api/log-out', {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/log-out', {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -153,7 +153,7 @@ function Recycling() {
             'vehicle': vehicle
         };
         console.log(itemType);
-        const response = await axios.post('http://127.0.0.1:5000/api/place-recycling', data, {
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/place-recycling', data, {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -167,7 +167,7 @@ function Recycling() {
 
     async function completeDelivery(id) {
         const data = {'id': id};
-        const response = await axios.post('http://127.0.0.1:5000/api/successful-delivery', data, {
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/successful-delivery', data, {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
