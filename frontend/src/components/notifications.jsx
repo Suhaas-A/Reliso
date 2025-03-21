@@ -7,7 +7,7 @@ function Notifications() {
     const [location, setLocation] = useState('');
 
     async function getNotifications() {
-        const response = await axios.get('http://127.0.0.1:5000/api/home', {
+        const response = await axios.get('https://recyclingapp.pythonanywhere.com/api/home', {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -23,7 +23,7 @@ function Notifications() {
 
     async function acceptRecycling(data) {
         data['location'] = location
-        const response = await axios.post('http://127.0.0.1:5000/api/accept-recycling', data, {
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/accept-recycling', data, {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
@@ -36,7 +36,7 @@ function Notifications() {
     }
 
     async function rejectRecycling(data) {
-        const response = await axios.post('http://127.0.0.1:5000/api/reject-recycling', data, {
+        const response = await axios.post('https://recyclingapp.pythonanywhere.com/api/reject-recycling', data, {
             headers: {
                 Authorization: `Bearer ${sessionStorage.accessToken}`
             }
