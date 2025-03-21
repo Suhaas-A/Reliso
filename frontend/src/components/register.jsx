@@ -57,7 +57,7 @@ function Register() {
 
                 <Button color="success" size="medium" variant="contained" style={{width: 180, position: "fixed", left: 665}} onClick={function() {submit()}}>submit</Button>
 
-                <a class="w3-text-blue" href="http://localhost:5173/login" style={{position: "fixed", left: 660, top: 650}}>Already have an account?</a>
+                <a class="w3-text-blue" href="/login" style={{position: "fixed", left: 660, top: 650}}>Already have an account?</a>
             </div>
         </>
     )
