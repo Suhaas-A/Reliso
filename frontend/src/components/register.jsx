@@ -55,9 +55,9 @@ function Register() {
                     <Typography fontSize={11} style={{color: 'rgb(90, 90, 90)', margin: 16, marginTop: -11}}>Do not try to place prank orders.</Typography>
                 </div>
 
-                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "absolute", left: '45%'}} onClick={function() {submit()}}>submit</Button>
+                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "absolute", left: '40%'}} onClick={function() {submit()}}>submit</Button>
 
-                <a class="w3-text-blue" href="/login" style={{position: "absolute", left: '50%', top: 650}}>Already have an account?</a>
+                <a class="w3-text-blue" href="/login" style={{position: "absolute", left: '30%', top: '90%'}}>Already have an account?</a>
             </div>
         </>
     )
