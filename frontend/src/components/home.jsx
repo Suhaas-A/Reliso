@@ -72,7 +72,7 @@ function Home() {
 
                                             textDecoration: 'none',
                                             color: 'rgb(0, 100, 0)',
-                                            paddingRight: 5,
+                                            paddingRight: 3,
                                             paddingTop: 4,
                                             paddingBottom: 4,
                                             fontSize: 40,
@@ -97,18 +97,18 @@ function Home() {
                         <div style={{height: 245, filter: 'brightness(50%)', zIndex: 100, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundImage: 'url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=")'}}>
                         </div>
                         
-                        <div style={{position: 'absolute', top: 250, left: 675, zIndex: 100}}>
+                        <div style={{position: 'absolute', top: '34%', left: '45%', zIndex: 100}}>
                             <Typography variant="h2" color="rgb(210, 250, 210)"><b>Reliso</b></Typography>
                             <Typography style={{marginLeft: -140, paddingTop: 10}} variant="h5" color="rgb(255, 255, 250)">Turning waste into wealth, one battery at a time.</Typography>
                         </div>
 
                         <div>
-                            <Typography fontSize={40} style={{zIndex: 100, position: 'absolute', top: 450, left: 692}} variant="h4" color="rgb(0, 100, 0)">
+                            <Typography fontSize={40} style={{zIndex: 100, position: 'absolute', top: '61%', left: '46%'}} variant="h4" color="rgb(0, 100, 0)">
                                 <b>Reliso</b>
                                 <Divider style={{borderWidth: 2, margin: 10, width: 150, marginLeft: -20}}></Divider>
                             </Typography>
 
-                            <div style={{zIndex: 100, position: "absolute", top: 365, padding: 200}}>
+                            <div style={{zIndex: 100, position: "absolute", top: '49%', padding: 200}}>
                                 <Typography variant="h6" fontSize={17} color="rgb(80, 80, 80)">
                                     At Reliso, we are redefining the future of recycling by making the disposal of solar panels and 
                                     lithium-ion batteries simple, efficient, and environmentally responsible. 
@@ -120,7 +120,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 725, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '98%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                             <img src={img1} style={{height: 410, width: 457}}></img>
 
                             <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -134,7 +134,7 @@ function Home() {
                             </Typography>
                         </div>
 
-                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 1200, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%'}}>
+                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '163%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%'}}>
                             <img src={img2} style={{position: 'absolute', left: 825, height: 410, width: 457}}></img>
 
                             <Typography variant="h4" style={{position: 'absolute', top: 144, left: 245, marginRight: 765}} fontSize={28}>
@@ -148,7 +148,7 @@ function Home() {
                             </Typography>
                         </div>
 
-                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 1635, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '228%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                             <img src={img3} style={{height: 410, width: 457}}></img>
 
                             <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -163,7 +163,7 @@ function Home() {
                             </Typography>
                         </div>
 
-                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 2115, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '293%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                             <img src={img4} style={{position: 'absolute', left: 825, height: 410, width: 457}}></img>
 
                             <Typography variant="h4" style={{position: 'absolute', top: 144, left: 245, marginRight: 765}} fontSize={28}>
@@ -177,7 +177,7 @@ function Home() {
                             </Typography>
                         </div>
 
-                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 2610, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                        <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '355%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                             <img src={img5} style={{height: 410, width: 457}}></img>
 
                             <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -192,7 +192,7 @@ function Home() {
                             </Typography>
                         </div>
 
-                        <div style={{position: 'absolute', top: 3165, zIndex: 100, backgroundColor: 'rgb(255, 255, 255)', height: 400, width: '100%'}}>
+                        <div style={{position: 'absolute', top: '429%', zIndex: 100, backgroundColor: 'rgb(255, 255, 255)', height: 400, width: '100%'}}>
                             <Typography color="rgb(0, 100, 0)" variant="h1" fontSize={45} style={{margin: 200, marginTop: 70}}>
                                 <img src={logo} style={{height: 100, width: 120, paddingLeft: 10, paddingRight: 15}}></img>
                                 <b>Reliso</b>
@@ -217,7 +217,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div style={{position: 'absolute', top: 3567, zIndex: 100, backgroundColor: 'rgb(20, 20, 20)', height: 225, width: '100%'}}>
+                        <div style={{position: 'absolute', top: '483%', zIndex: 100, backgroundColor: 'rgb(20, 20, 20)', height: 225, width: '100%'}}>
                             <Typography color="white" variant="h6" style={{padding: 110, paddingTop: 100}}>
                                 Copyright 2025 - All Rights Reserved By <b>Reliso</b>
                             </Typography>
@@ -239,7 +239,7 @@ function Home() {
 
                                                 textDecoration: 'none',
                                                 color: 'rgb(0, 100, 0)',
-                                                paddingRight: 5,
+                                                paddingRight: 3,
                                                 paddingTop: 4,
                                                 paddingBottom: 4,
                                                 fontSize: 40,
@@ -265,18 +265,18 @@ function Home() {
                             <div style={{height: 245, filter: 'brightness(50%)', zIndex: 100, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundImage: 'url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=")'}}>
                             </div>
                             
-                            <div style={{position: 'absolute', top: 250, left: 675, zIndex: 100}}>
+                            <div style={{position: 'absolute', top: '34%', left: '45%', zIndex: 100}}>
                                 <Typography variant="h2" color="rgb(210, 250, 210)"><b>Reliso</b></Typography>
                                 <Typography style={{marginLeft: -140, paddingTop: 10}} variant="h5" color="rgb(255, 255, 250)">Turning waste into wealth, one battery at a time.</Typography>
                             </div>
 
                             <div>
-                                <Typography fontSize={40} style={{zIndex: 100, position: 'absolute', top: 450, left: 692}} variant="h4" color="rgb(0, 100, 0)">
+                                <Typography fontSize={40} style={{zIndex: 100, position: 'absolute', top: '61%', left: '46%'}} variant="h4" color="rgb(0, 100, 0)">
                                     <b>Reliso</b>
                                     <Divider style={{borderWidth: 2, margin: 10, width: 150, marginLeft: -20}}></Divider>
                                 </Typography>
 
-                                <div style={{zIndex: 100, position: "absolute", top: 365, padding: 200}}>
+                                <div style={{zIndex: 100, position: "absolute", top: '49%', padding: 200}}>
                                     <Typography variant="h6" fontSize={17} color="rgb(80, 80, 80)">
                                         At Reliso, we recognize that our workers and delivery personnel are the backbone of our sustainable 
                                         recycling efforts. We are committed to providing them with the best resources, support, and 
@@ -285,7 +285,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 725, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '88%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                                 <img src={img6} style={{height: 410, width: 457}}></img>
 
                                 <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -299,7 +299,7 @@ function Home() {
                                 </Typography>
                             </div>
 
-                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 1200, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%'}}>
+                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '153%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%'}}>
                                 <img src={img7} style={{position: 'absolute', left: 825, height: 410, width: 457}}></img>
 
                                 <Typography variant="h4" style={{position: 'absolute', top: 144, left: 245, marginRight: 765}} fontSize={28}>
@@ -313,7 +313,7 @@ function Home() {
                                 </Typography>
                             </div>
 
-                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 1635, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '218%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                                 <img src={img8} style={{height: 410, width: 457}}></img>
 
                                 <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -327,7 +327,7 @@ function Home() {
                                 </Typography>
                             </div>
 
-                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 2115, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '283%', zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                                 <img src={img9} style={{position: 'absolute', left: 825, height: 410, width: 457}}></img>
 
                                 <Typography variant="h4" style={{position: 'absolute', top: 144, left: 245, marginRight: 765}} fontSize={28}>
@@ -341,7 +341,7 @@ function Home() {
                                 </Typography>
                             </div>
 
-                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: 2610, zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
+                            <div style={{padding: 250, paddingTop: 70, position: 'absolute', top: '345%' , zIndex: 100, backgroundColor: "rgb(235, 235, 235)", width: '100%', height: 1000}}>
                                 <img src={img10} style={{height: 410, width: 457}}></img>
 
                                 <Typography variant="h4" style={{position: 'absolute', top: 144, left: 785, marginRight: 235}} fontSize={28}>
@@ -355,7 +355,7 @@ function Home() {
                                 </Typography>
                             </div>
 
-                            <div style={{position: 'absolute', top: 3165, zIndex: 100, backgroundColor: 'rgb(255, 255, 255)', height: 400, width: '100%'}}>
+                            <div style={{position: 'absolute', top: '413%', zIndex: 100, backgroundColor: 'rgb(255, 255, 255)', height: 400, width: '100%'}}>
                                 <Typography color="rgb(0, 100, 0)" variant="h1" fontSize={45} style={{margin: 200, marginTop: 70}}>
                                     <img src={logo} style={{height: 100, width: 120, paddingLeft: 10, paddingRight: 15}}></img>
                                     <b>Reliso</b>
@@ -381,7 +381,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div style={{position: 'absolute', top: 3567, zIndex: 100, backgroundColor: 'rgb(20, 20, 20)', height: 225, width: '100%'}}>
+                            <div style={{position: 'absolute', top: '465%', zIndex: 100, backgroundColor: 'rgb(20, 20, 20)', height: 225, width: '100%'}}>
                                 <Typography color="white" variant="h6" style={{padding: 110, paddingTop: 100}}>
                                     Copyright 2025 - All Rights Reserved By <b>Reliso</b>
                                 </Typography>
