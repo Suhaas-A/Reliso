@@ -36,7 +36,7 @@ function Register() {
                 <Typography variant="h6" fontSize={25} style={{marginLeft: 98, marginTop: 6}}><b>Create a new account</b></Typography>
                 <Typography variant="h6" fontSize={15} style={{marginLeft: 155, marginTop: -5, marginBottom: 12, color: 'rgb(90, 90, 90)'}}>It's quick and easy.</Typography>
                 <Divider></Divider>
-                <TextField label="Username" size="small" style={{margin: 16, width: '90%'}} value={username} onChange={function(e) {setUsername(e.target.value)}} placeholder="Username"></TextField> <br></br>
+                <TextField label="Username" size="small" style={{margin: 16, width: '92%'}} value={username} onChange={function(e) {setUsername(e.target.value)}} placeholder="Username"></TextField> <br></br>
                 <TextField label="Password" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={password} onChange={function(e) {setPassword(e.target.value)}} placeholder="Password"></TextField> <br></br>
                 <TextField label="Email" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={email} onChange={function(e) {setEmail(e.target.value)}} placeholder="Email"></TextField> <br></br>
                 <TextField label="Phone number" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={phoneNumber} onChange={function(e) {setPhoneNumber(e.target.value)}} placeholder="Phone number"></TextField> <br></br>
