@@ -40,7 +40,7 @@ function Login() {
 
                 <Divider style={{marginTop: 20}}></Divider>
 
-                <Button onClick={function() {window.location.href = '/register'}} style={{width: '60%', margin: '20%', marginBottom: '3.5%', marginTop: '4%', height: '14%'}} color="success" variant="contained">Create Account</Button>
+                <Button onClick={function() {window.location.href = '/register'}} style={{width: '59%', margin: '20%', marginBottom: '3.7%', marginTop: '4.1%', height: '14%'}} color="success" variant="contained">Create Account</Button>
             </div>
         </>
     )
