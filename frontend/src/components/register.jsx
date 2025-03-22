@@ -32,16 +32,16 @@ function Register() {
                 <Typography class="w3-center" variant="h3" style={{color: 'rgb(0, 100, 0)', fontSize: 58}}><b>Reliso</b></Typography>
             </div>
 
-            <div class="w3-card-4 w3-white w3-border w3-round-large w3-center" style={{'width': '35%', 'height': '95%', position: "absolute", left: "32%"}}>
-                <Typography variant="h6" fontSize={25} style={{marginLeft: '5%', marginTop: 6}}><b>Create a new account</b></Typography>
-                <Typography variant="h6" fontSize={15} style={{marginLeft: '7%', marginTop: -5, marginBottom: 12, color: 'rgb(90, 90, 90)'}}>It's quick and easy.</Typography>
+            <div class="w3-card-4 w3-white w3-border w3-round-large" style={{'width': 434, 'height': 590, position: "fixed", top: 110, left: 540}}>
+                <Typography variant="h6" fontSize={25} style={{marginLeft: 98, marginTop: 6}}><b>Create a new account</b></Typography>
+                <Typography variant="h6" fontSize={15} style={{marginLeft: 155, marginTop: -5, marginBottom: 12, color: 'rgb(90, 90, 90)'}}>It's quick and easy.</Typography>
                 <Divider></Divider>
-                <TextField label="Username" size="small" style={{margin: 16, width: '93.5%'}} value={username} onChange={function(e) {setUsername(e.target.value)}} placeholder="Username"></TextField> <br></br>
-                <TextField label="Password" size="small" style={{margin: 16, marginTop: 0, width: '93.5%'}} value={password} onChange={function(e) {setPassword(e.target.value)}} placeholder="Password"></TextField> <br></br>
-                <TextField label="Email" size="small" style={{margin: 16, marginTop: 0, width: '93.5%'}} value={email} onChange={function(e) {setEmail(e.target.value)}} placeholder="Email"></TextField> <br></br>
-                <TextField label="Phone number" size="small" style={{margin: 16, marginTop: 0, width: '93.5%'}} value={phoneNumber} onChange={function(e) {setPhoneNumber(e.target.value)}} placeholder="Phone number"></TextField> <br></br>
-                <TextField label="Address" size="small" style={{margin: 16, marginTop: 0, width: '93.5%'}} value={address} onChange={function(e) {setAddress(e.target.value)}} placeholder="Address"></TextField> <br></br>
-                <TextField select label="Role" size="small" style={{margin: 16, marginTop: 0, width: '93.5%'}} value={accountType} onChange={function(e) {setAccountType(e.target.value)}} placeholder="Role">
+                <TextField label="Username" size="small" style={{margin: 16, width: 392}} value={username} onChange={function(e) {setUsername(e.target.value)}} placeholder="Username"></TextField> <br></br>
+                <TextField label="Password" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={password} onChange={function(e) {setPassword(e.target.value)}} placeholder="Password"></TextField> <br></br>
+                <TextField label="Email" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={email} onChange={function(e) {setEmail(e.target.value)}} placeholder="Email"></TextField> <br></br>
+                <TextField label="Phone number" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={phoneNumber} onChange={function(e) {setPhoneNumber(e.target.value)}} placeholder="Phone number"></TextField> <br></br>
+                <TextField label="Address" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={address} onChange={function(e) {setAddress(e.target.value)}} placeholder="Address"></TextField> <br></br>
+                <TextField select label="Role" size="small" style={{margin: 16, marginTop: 0, width: 392}} value={accountType} onChange={function(e) {setAccountType(e.target.value)}} placeholder="Role">
                     <MenuItem value={'u'}>
                         Customer
                     </MenuItem>
@@ -55,9 +55,9 @@ function Register() {
                     <Typography fontSize={11} style={{color: 'rgb(90, 90, 90)', margin: 16, marginTop: -11}}>Do not try to place prank orders.</Typography>
                 </div>
 
-                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "absolute", left: '32%', top: '84%'}} onClick={function() {submit()}}>submit</Button>
+                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "fixed", left: 665}} onClick={function() {submit()}}>submit</Button>
 
-                <a class="w3-text-blue" href="/login" style={{position: "absolute", left: '31%', top: '90%'}}>Already have an account?</a>
+                <a class="w3-text-blue" href="http://localhost:5173/login" style={{position: "fixed", left: 660, top: 650}}>Already have an account?</a>
             </div>
         </>
     )
