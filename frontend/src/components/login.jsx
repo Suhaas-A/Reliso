@@ -25,7 +25,7 @@ function Login() {
 
     return (
         <>
-            <div style={{position: "fixed", top: 200, left: 268}}>
+            <div style={{position: "absolute", top: 200, left: 268}}>
                 <Typography variant="h3" style={{color: 'rgb(0, 100, 0)', fontSize: 58}}><b>Reliso</b></Typography>
                 <Typography variant="h5" style={{fontSize: 27}}>Recycling today for a greener tomorrow.</Typography>
             </div>
