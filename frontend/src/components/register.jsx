@@ -32,7 +32,7 @@ function Register() {
                 <Typography class="w3-center" variant="h3" style={{color: 'rgb(0, 100, 0)', fontSize: 58}}><b>Reliso</b></Typography>
             </div>
 
-            <div class="w3-card-4 w3-white w3-border w3-round-large w3-center" style={{'width': '35%', 'height': '85%', position: "absolute", left: "32%"}}>
+            <div class="w3-card-4 w3-white w3-border w3-round-large w3-center" style={{'width': '35%', 'height': '90%', position: "absolute", left: "32%"}}>
                 <Typography variant="h6" fontSize={25} style={{marginLeft: '5%', marginTop: 6}}><b>Create a new account</b></Typography>
                 <Typography variant="h6" fontSize={15} style={{marginLeft: '7%', marginTop: -5, marginBottom: 12, color: 'rgb(90, 90, 90)'}}>It's quick and easy.</Typography>
                 <Divider></Divider>
@@ -55,9 +55,9 @@ function Register() {
                     <Typography fontSize={11} style={{color: 'rgb(90, 90, 90)', margin: 16, marginTop: -11}}>Do not try to place prank orders.</Typography>
                 </div>
 
-                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "absolute", left: '33%', top: '90%'}} onClick={function() {submit()}}>submit</Button>
+                <Button color="success" size="medium" variant="contained" style={{width: 180, position: "absolute", left: '32%', top: '90%'}} onClick={function() {submit()}}>submit</Button>
 
-                <a class="w3-text-blue" href="/login" style={{position: "absolute", left: '31%', top: '98%'}}>Already have an account?</a>
+                <a class="w3-text-blue" href="/login" style={{position: "absolute", left: '31%', top: '99%'}}>Already have an account?</a>
             </div>
         </>
     )
