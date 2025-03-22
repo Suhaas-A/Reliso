@@ -36,7 +36,7 @@ function Login() {
                 
                 <Button style={{width: '92%', margin: 16, marginTop: -20, height: 45}} variant="contained" fullWidth onClick={function() {submit()}}>submit</Button>
 
-                <a style={{marginLeft: '26%'}} href="/forget-password">Forgotten Password?</a>
+                <a style={{marginLeft: '27%'}} href="/forget-password">Forgotten Password?</a>
 
                 <Divider style={{marginTop: 20}}></Divider>
 
