@@ -30,17 +30,17 @@ function Login() {
                 <Typography variant="h5" style={{fontSize: 27}}>Recycling today for a greener tomorrow.</Typography>
             </div>
             
-            <div class="w3-card-4 w3-white w3-border w3-round-large" style={{'width': '27%', 'height': 350, position: "absolute", top: '18%', left: '54.8%'}}>
+            <div class="w3-card-4 w3-white w3-border w3-round-large" style={{'width': '27%', 'height': '47%', position: "absolute", top: '18%', left: '54.8%'}}>
                 <TextField style={{width: '92%', margin: 16, marginBottom: 0}} fullWidth class="w3-border w3-round-large" value={username} onChange={function(e) {setUsername(e.target.value)}} placeholder="username"></TextField> <br></br>
                 <TextField style={{width: '92%', margin: 16, marginTop: -10}} fullWidth class="w3-border w3-round-large" value={password} onChange={function(e) {setPassword(e.target.value)}} placeholder="password"></TextField> <br></br>
                 
-                <Button style={{width: '92%', margin: 16, marginTop: -20, height: 45}} variant="contained" fullWidth onClick={function() {submit()}}>submit</Button>
+                <Button style={{width: '92%', margin: 16, marginTop: -20, height: '14%'}} variant="contained" fullWidth onClick={function() {submit()}}>submit</Button>
 
-                <a style={{marginLeft: '27%'}} href="/forget-password">Forgotten Password?</a>
+                <a style={{marginLeft: '30%'}} href="/forget-password">Forgotten Password?</a>
 
                 <Divider style={{marginTop: 20}}></Divider>
 
-                <Button onClick={function() {window.location.href = '/register'}} style={{width: '60%', margin: '20%', marginBottom: '3%', marginTop: '4%', height: 45}} color="success" variant="contained">Create Account</Button>
+                <Button onClick={function() {window.location.href = '/register'}} style={{width: '60%', margin: '20%', marginBottom: '3.5%', marginTop: '4%', height: '14%'}} color="success" variant="contained">Create Account</Button>
             </div>
         </>
     )
