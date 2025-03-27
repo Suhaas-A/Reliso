@@ -387,8 +387,7 @@ function Home() {
                                 </Typography>
 
                                 <Typography color="white" variant="h6" style={{position: 'absolute', left: 1000, top: 100}}>
-                                    Developed And Maintained By <b>Suhaas.A</b> <br></br>
-                                    Founded By <b>Mudhith</b>
+                                    Developed And Maintained By <b>Suhaas.A</b> Founded By <b>Mudhith</b>
                                 </Typography>
                             </div>
                         </>
